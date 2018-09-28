@@ -1,0 +1,32 @@
+//grammen
+Abrikozen = 100;
+Oranjesnippers = 50;
+Sucade = 50;
+Blanke Rozijnen = 250;
+Bruine Rozijnen = 250;
+Bakmeel = 225;
+Boter = 150;
+//Deciliters
+Melk = 1.5
+//eetlepels
+Schenkstroop = 3;
+Honing = 3;
+Koekkruiden = 0.5;
+//losse ingredienten
+Nootmuskaat
+Zout
+Eieren = 2;
+
+X = zelf bepalen;
+Public Void Taart (){
+	Cut(Abrikozen, Oranjesnippers);
+	Pan.Add(Abrikozen, Oranjesnippers, Sucade, Blanke Rozijnen.Bruine Rozijnen, Boter, Melk, Stroop, Honing);
+	Smelt(Boter);
+	Wait(60000); //5 minuten wachten
+	Wait(X); //laten afkoelen
+	Kom.Sive(Bakmeel, Koekkruiden, Nootmuskaat, Zout);
+	Kom.Mix(Eieren, Pan.index[1-8]);
+	Vorm.Insert(Round(Kom.Value), Size = 22);
+	Oven.Insert(Vorm), Temp = 150, Time = 5400000); //1.5 uur in miliseconden
+	Vorm.Cool(X);
+}

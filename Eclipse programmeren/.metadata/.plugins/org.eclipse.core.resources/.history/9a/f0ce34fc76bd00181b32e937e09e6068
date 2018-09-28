@@ -1,0 +1,34 @@
+
+public class CoffeeMachine{
+int
+amountOfCoffee
+= 10
+;
+int
+amountOfChocolate
+= 10
+;
+void
+makeCoffee(){
+System.
+out
+.println("Here you have a cup of coffee");
+amountOfCoffee = amountOfCoffee 
+-
+1;
+}
+void
+makeHotChocolate(){
+System.
+out
+.println("Here you have a cup of hot chocolate");
+amountOfChocolate = amountOfChocolate 
+-
+1;
+}
+void
+restock(){
+amountOfCoffee = 10;
+amountOfChocolate = 10;
+}
+}

@@ -1,0 +1,13 @@
+[1] 
+int
+i = 0;
+while (i < 10) {
+System.out.println("Current number is: " + i);
+i++;
+}
+Kan je nu al bedenken wat in dat stuk code gebeurt?
+dit stuk code zal "Current number is: (aantal loops gedaan) 10 keer printen
+[2]
+Kan je nu bedenken wat er in dit stuk code gebeurt? Had je het net al goed?
+ik had het net al goed.
+

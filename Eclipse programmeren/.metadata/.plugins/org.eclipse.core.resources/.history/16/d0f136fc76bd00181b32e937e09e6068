@@ -1,0 +1,16 @@
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		int i = 0;
+		while(i < 3)
+		{
+			System.out.print("Ha");
+			i++;
+		};
+		System.out.print("choo ");
+		System.out.println("Hello Noah");
+		
+	}
+
+}
